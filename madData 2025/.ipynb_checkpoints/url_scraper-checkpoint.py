@@ -4,7 +4,7 @@ import pandas as pd
 
 # Base URL for pagination
 BASE_URL = "https://devpost.com/software/popular?page={}"
-MAX_PAGES = 50
+MAX_PAGES = 5
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
